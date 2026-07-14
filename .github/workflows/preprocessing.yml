@@ -28,7 +28,7 @@ jobs:
         
     - name: Run preprocessing script
       run: |
-        cd preprocessing
+        cd Eksperimen_SML_Muhammad-Shirojul-Munir/preprocessing
         python automate_Muhammad-Shirojul-Munir.py
         
     - name: Commit and push processed data

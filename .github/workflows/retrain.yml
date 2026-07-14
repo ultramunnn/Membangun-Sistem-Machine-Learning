@@ -26,7 +26,7 @@ jobs:
         
     - name: Run MLflow Project (Retrain Model)
       run: |
-        cd MLProject
+        cd Workflow-CI/MLProject
         mlflow run . --no-conda
         
     - name: Upload Artifacts to GitHub
