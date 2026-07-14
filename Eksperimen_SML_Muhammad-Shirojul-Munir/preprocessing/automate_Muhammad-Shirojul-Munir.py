@@ -56,7 +56,7 @@ def save_data(train_df, test_df, output_dir):
 if __name__ == "__main__":
     script_dir = os.path.dirname(os.path.abspath(__file__))
     raw_dir = os.path.join(script_dir, "..", "breast_cancer_raw")
-    output_directory = os.path.join(script_dir, "..", "breast_cancer_preprocessing")
+    output_directory = os.path.join(script_dir, "dataset_preprocessing")
     
     raw_df = load_data()
     save_raw_data(raw_df, raw_dir)

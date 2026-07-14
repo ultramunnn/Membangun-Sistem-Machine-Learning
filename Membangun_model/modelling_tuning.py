@@ -36,19 +36,19 @@ def create_feature_importance_plot(model, feature_names, num_features, output_pa
 
 if __name__ == "__main__":
     mlflow.autolog(disable=True)
-    
     # Kriteria 2 (Advanced): DagsHub MLflow tracking
     dagshub.init(repo_owner='ultramunnn', repo_name='Membangun-Sistem-Machine-Learning', mlflow=True)
+    mlflow.set_experiment("Tuning Kanker Payudara")
     
     script_dir = os.path.dirname(os.path.abspath(__file__))
-    train_path = os.path.join(script_dir, "..", "Eksperimen_SML_Muhammad-Shirojul-Munir", "breast_cancer_preprocessing", "train.csv")
-    test_path = os.path.join(script_dir, "..", "Eksperimen_SML_Muhammad-Shirojul-Munir", "breast_cancer_preprocessing", "test.csv")
+    train_path = os.path.join(script_dir, "..", "Eksperimen_SML_Muhammad-Shirojul-Munir", "preprocessing", "dataset_preprocessing", "train.csv")
+    test_path = os.path.join(script_dir, "..", "Eksperimen_SML_Muhammad-Shirojul-Munir", "preprocessing", "dataset_preprocessing", "test.csv")
     
     if not os.path.exists(train_path):
-        alt_path = os.path.join(script_dir, "breast_cancer_preprocessing", "train.csv")
+        alt_path = os.path.join(script_dir, "preprocessing", "dataset_preprocessing", "train.csv")
         if os.path.exists(alt_path):
             train_path = alt_path
-            test_path = os.path.join(script_dir, "breast_cancer_preprocessing", "test.csv")
+            test_path = os.path.join(script_dir, "preprocessing", "dataset_preprocessing", "test.csv")
         else:
             print(f"File tidak ditemukan. Pastikan preprocessing sudah dijalankan.")
             exit(1)

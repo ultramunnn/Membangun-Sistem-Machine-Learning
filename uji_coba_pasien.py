@@ -9,7 +9,7 @@ print("==============================================\n")
 
 # Load data test
 script_dir = os.path.dirname(os.path.abspath(__file__))
-test_path = os.path.join(script_dir, "Eksperimen_SML_Muhammad-Shirojul-Munir", "breast_cancer_preprocessing", "test.csv")
+test_path = os.path.join(script_dir, "Eksperimen_SML_Muhammad-Shirojul-Munir", "preprocessing", "dataset_preprocessing", "test.csv")
 
 try:
     data = pd.read_csv(test_path)
