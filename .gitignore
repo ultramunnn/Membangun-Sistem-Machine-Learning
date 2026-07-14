@@ -1,0 +1,22 @@
+# Environments
+venv/
+env/
+.env
+
+# Python caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# MLflow and Data
+mlruns/
+*.csv
+*.zip
+
+# VS Code
+.vscode/
+
+# Temp files
+*.log
+*.tmp
