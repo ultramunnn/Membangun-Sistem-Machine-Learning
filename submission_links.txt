@@ -1,0 +1,16 @@
+Halo Reviewer!
+
+Berikut adalah tautan (link) kelengkapan proyek MLOps saya (seluruh kriteria Level Advanced):
+
+1. Link Repository Eksperimen & Sistem Monitoring (Kriteria 1 & 4):
+https://github.com/ultramunnn/Membangun-Sistem-Machine-Learning
+
+2. Link Repository Workflow CI / MLProject (Kriteria 3):
+https://github.com/ultramunnn/Workflow-CI-Dicoding
+
+3. Link DagsHub Tracking (Kriteria 2 Advance):
+[ISI DENGAN LINK DAGSHUB ANDA DI SINI]
+
+Bukti screenshot MLflow lokal (Kriteria 2) berada di folder "Membangun_model" pada Repository Utama.
+
+Terima kasih banyak!

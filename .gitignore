@@ -12,7 +12,6 @@ __pycache__/
 # MLflow and Data
 mlruns/
 mlartifacts/
-*.csv
 *.zip
 
 # VS Code
