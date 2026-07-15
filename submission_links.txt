@@ -9,7 +9,7 @@ https://github.com/ultramunnn/Membangun-Sistem-Machine-Learning
 https://github.com/ultramunnn/Workflow-CI-Dicoding
 
 3. Link DagsHub Tracking (Kriteria 2 Advance):
-[ISI DENGAN LINK DAGSHUB ANDA DI SINI]
+https://dagshub.com/ultramunnn/Membangun-Sistem-Machine-Learning
 
 Bukti screenshot MLflow lokal (Kriteria 2) berada di folder "Membangun_model" pada Repository Utama.
 
