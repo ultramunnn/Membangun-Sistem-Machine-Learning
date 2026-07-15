@@ -30,8 +30,8 @@ def load_test_data():
         return columns, X_test
     except Exception as e:
         print("Gagal membaca test.csv. Pastikan file ada. Error:", e)
-        return [str(i) for i in range(30)], [[0.5] * 30] * 10
-
+        import sys
+        sys.exit(1)
 def process_request(columns, X_test):
     ACTIVE_REQUESTS.inc()
     start_time = time.time()
